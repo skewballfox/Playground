@@ -1,0 +1,7 @@
+[embeddingsExtractor]
+training_directory="../Dataset/"
+face_embeddings_directory="../output/"
+detector_path="../Face_detection_model/deploy.prototxt"
+weights_path="../Face_detection_model/res10_300x300_ssd_iter_140000.caffemodel"
+embedding_model="../Face_detection_model/openface/nn4.small2.v1.t7"
+minimum_confidence= ".5"
